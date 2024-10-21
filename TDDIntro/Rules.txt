@@ -1,0 +1,38 @@
+﻿Yaklaşımın 3 ALTIN KURALI:
+
+1. Başarısız olan bir birim testini başarılı hale getirmek için olmadığı sürece herhangi bir (production) kodu yazmanız yasaktır.
+2. Bir birim testinin başarısız olması için yeterli olandan daha fazlasını yazmanız yasaktır. [Compiler-time başarısızlıkları da dahildir]
+3. Başarısız olan tek bir birim testini geçmek için yeterli olandan daha fazla kod yazmanız yasaktır.
+
+RED-GREEN-REFACTOR
+[KIRMIZI]: Küçük bir test yaz
+[YEŞİL]: Bu testin geçmesini sağla
+[Refactor]: Testi geçen kod, yeniden düzenlenebilir ve önceki testleri patlatamaz.
+
+Ben bir [ROL] olarak
+Benim [Talep] istiyorum
+Böylelikle [Amaç] elde edebilirim
+
+
+   BEHAVIOR DRIVEN DEVELOPMENT
+Bir konuşmacı olarak
+Başvuru tarihine göre etkinlikleri aramak isyorum
+Böylelikle bu etkinliklerde konşabilirim
+
+
+Given
+ And Given
+ When
+ Then
+ And Then
+
+ Given [Ben bir konuşmacıyım]
+ And Given [25 km alanda arama yapıyorum]
+ And Given [Başvuru tarihi var]
+ When [Etkinlik aradığımda]
+ Then [Sadece 25km'lik alanda uygun etkinlikleri bulacağım]
+
+
+
+  
+
