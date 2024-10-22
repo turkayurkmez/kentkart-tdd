@@ -1,0 +1,17 @@
+﻿* Yak Shaving
+   Bunları yapıyorum ama anlamı nedir?
+     Belirli bir amaca ulaşmak için sergilenen yüksek eforun bir karşılığı
+         - İşi ertelemek için etrafında dolanıyorsam x
+         - İşi temiz, spesifik bir biçimde tamamlamak için kullanıyorsam +
+   MVP: Minimum Viable Product [En az ihtiyacı karşılayan ürün]
+
+* YAGNI: You ain't gonna need it
+         Eğer o kodu kullanmayacaksan, yazma!
+
+* Test Small
+
+* Şeytanın avukatı olun:
+   Sadece testten geçmek amacıyla en basit çözümü yazın (anlamlı olmasını beklemeyin)
+* Önce olumsuz durumları test edin
+
+   

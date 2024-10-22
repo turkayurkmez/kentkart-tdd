@@ -1,4 +1,5 @@
 ﻿using Community.API.Models;
+using System.Xml.Linq;
 
 namespace Community.API.Services
 {
@@ -14,6 +15,15 @@ namespace Community.API.Services
 
             };
             return speakers;
+        }
+
+        public List<Speaker> GetSpeakersByName(string speakerName)
+        {
+            var speakers = GetSpeakers();
+
+            var output = speakers.Where(sp => sp.Name.Contains(speakerName, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            return output;
         }
     }
 }

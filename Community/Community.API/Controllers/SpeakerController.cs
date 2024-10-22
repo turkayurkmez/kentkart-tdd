@@ -13,14 +13,13 @@ namespace Community.API.Controllers
 
         public SpeakerController(ISpeakerService speakerService)
         {
-            depentendService = speakerService;    
+            depentendService = speakerService;
         }
         public IActionResult Search(string name)
         {
             //var depentendService = new SpeakerService();
-            var speakers = depentendService.GetSpeakers();
-
-            var output = speakers.Where(sp=>sp.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();          
+            //var speakers = depentendService.GetSpeakers();
+            var output = depentendService.GetSpeakersByName(name);
             return Ok(output);
         }
     }

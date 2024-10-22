@@ -1,0 +1,5 @@
+﻿1. Teste veri erişim katmanından başlamayı ve kullanıcı arayüzüne doğru ilerlemeyi tercih edebilirsiniz. Back-to-frond
+2. Kullanıcı arayüzünden başla -> veri katmanına doğru ilerle. Front-to-back
+3. Business (Application) katmanında testler başlar ve hem dışa hem de içe doğru ihtiyaca binaen ilerler! inside-out
+
+

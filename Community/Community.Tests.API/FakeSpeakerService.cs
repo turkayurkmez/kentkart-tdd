@@ -16,5 +16,10 @@ namespace Community.Tests.API
         {
            return new List<Speaker>() { new() { Name="Abdullah" }, new() { Name = "Abdurrahman" } };
         }
+
+        public List<Speaker> GetSpeakersByName(string speakerName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

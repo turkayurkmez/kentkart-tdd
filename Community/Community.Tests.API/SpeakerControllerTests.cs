@@ -1,7 +1,9 @@
 using Community.API.Controllers;
 using Community.API.Models;
 using Community.API.Services;
+using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
+using Moq;
 
 namespace Community.Tests.API
 {
@@ -22,11 +24,36 @@ namespace Community.Tests.API
         //    controller.Search(name);
         //}
         SpeakerController controller;
-        FakeSpeakerService speakerService;
+        ISpeakerService speakerService;
+        Mock<ISpeakerService> speakerServiceMock;
+        private IEnumerable<Speaker> _speakers;
         public SpeakerControllerTests()
         {
-            speakerService = new FakeSpeakerService();
-            controller = new SpeakerController(speakerService);
+            _speakers = new Speaker[]
+            {
+                new Speaker{ Name = "Burak Selim"},
+                new Speaker{ Name = "Türkay"},
+                new Speaker{ Name = "Abdullah"},
+                new Speaker{ Name = "Abdurrahman"},
+            };
+
+
+            //speakerService = new FakeSpeakerService();
+            string name = string.Empty;
+            speakerServiceMock = new Mock<ISpeakerService>();
+            speakerServiceMock.Setup(sp => sp.GetSpeakers()).Returns(_speakers.ToList());
+            
+
+            controller = new SpeakerController(speakerServiceMock.Object);
+        }
+
+        private void setupMockForSearch(string name)
+        {
+            speakerServiceMock.Setup(sp => sp.
+                                             GetSpeakersByName(It.IsAny<string>()))
+                                            .Returns(_speakers.Where(s => s.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList());
+
+            controller = new SpeakerController(speakerServiceMock.Object);
         }
 
         [Fact]
@@ -35,8 +62,14 @@ namespace Community.Tests.API
           
             string name = string.Empty;
             var result = controller.Search(name);
-            Assert.NotNull(result);
-            Assert.IsType<OkObjectResult>(result);
+
+            result.Should().NotBeNull();
+            //Assert.NotNull(result);
+
+
+
+            //Assert.IsType<OkObjectResult>(result);
+            result.Should().BeOfType<OkObjectResult>();
         }
 
         [Fact]
@@ -44,6 +77,7 @@ namespace Community.Tests.API
         {
             //var controller = new SpeakerController();
             string name = "Jos";
+            setupMockForSearch(name);
             var result = controller.Search(name) as OkObjectResult;
             Assert.NotNull(result);
             Assert.NotNull(result.Value);
@@ -56,6 +90,7 @@ namespace Community.Tests.API
         [Fact]
         public void Given_Exact_match_then_one_speaker_in_collection()
         {
+            setupMockForSearch("Abdullah");
             //var controller = new SpeakerController();
             string name = "Abdullah";
             var result = controller.Search(name) as OkObjectResult;
@@ -72,7 +107,9 @@ namespace Community.Tests.API
 
         public void Given_Case_Insensitive_Match_Then_Speaker_InCollection(string searchString)
         {
-        
+
+
+            setupMockForSearch(searchString);
             var result = controller.Search(searchString) as OkObjectResult;
             var speakers = (IEnumerable<Speaker>)result.Value;
             Assert.Single(speakers);
@@ -83,6 +120,7 @@ namespace Community.Tests.API
         public void Given_No_Match_Then_Empty_Collection()
         {
             var searchString = "x";
+            setupMockForSearch(searchString);
             var result = controller.Search(searchString) as OkObjectResult;
             var speakers = (IEnumerable<Speaker>)result.Value;
 
@@ -95,6 +133,7 @@ namespace Community.Tests.API
         public void Given_Two_Match_Then_Collection_Two_Collection()
         {
             var searchString = "abd";
+            setupMockForSearch(searchString);
             var result = controller.Search(searchString) as OkObjectResult;
             var speakers = (IEnumerable<Speaker>)result.Value;
 

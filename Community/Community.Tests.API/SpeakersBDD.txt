@@ -17,3 +17,100 @@ Given I am a conference organizer
  When I search for speakers by name 
  Then I receive speakers with a matching last name 
 
+
+ ## Konuşmacılar
+
+ As user group organizer
+ I want to see a listing of all speakers
+ So that I can find speakers for my user group.
+
+As conference organizer
+ I want to see details of a particular speaker
+ So that I might view more information about them.
+
+ As user group organizer
+ I want to see a listing of all speakers
+ So that I can find speakers for my user group.
+
+Given system contains speakers
+ When viewing speaker catalog
+ Then a listing of all speaker summaries is returned.
+
+As conference organizer
+ I want to see details of a particular speaker
+ So that I might view more information about them.
+
+
+Given specified speaker exists
+ When speaker selected
+ Then speaker details are returned.
+
+Given specified speaker does not exists
+ When speaker selected
+ Then a friendly error message should be returned.
+
+ ## Komunite
+ As a speaker
+ I want to see a listing of all communities
+ So that I can find potential user groups at which to speak.
+
+
+As a speaker
+ I want to see details of a particular community
+ So that I can learn more about the user group.
+
+ As a speaker
+ I want to see a listing of all communities
+ So that I can find potential user groups at which to speak.
+
+
+Given system contains communities
+ When viewing community catalog
+ Then a listing of all user groups is returned.
+
+As a speaker
+ I want to see details of a particular community
+ So that I can learn more about the user group.
+
+
+Given community selected
+ When specified community exists
+ Then community detail returned.
+
+
+Given community selected
+ When specified community does not exists
+ Then a friendly error message should be returned.
+
+### Konferanslar
+
+As a speaker
+ I want to see a listing of all conferences
+ So that I can find conferences at which to speak.
+
+As a speaker
+ I want to see details of a particular conference
+ So that I can learn more about the conference.
+
+ As a speaker
+ I want to see a listing of all conferences
+ So that I can find conferences at which to speak.
+
+Given system contains conferences
+ When viewing conference catalog
+ Then a listing of all conferences is returned.
+
+
+As a speaker
+ I want to see details of a particular community
+ So that I can learn more about the user group.
+
+
+Given specified conference exists
+ When conference selected
+ Then conference detail returned.
+
+
+Given specified conference does not exists
+ When conference selected
+ Then a friendly error message should be returned.
