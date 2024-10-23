@@ -42,7 +42,7 @@ namespace Community.Tests.API
             string name = string.Empty;
             speakerServiceMock = new Mock<ISpeakerService>();
             speakerServiceMock.Setup(sp => sp.GetSpeakers()).Returns(_speakers.ToList());
-            
+            speakerServiceMock.Setup(sp => sp.GetSpeakersSummary()).Returns(_speakers.Select(x => new SpeakerSummary { Name = x.Name }).ToList());
 
             controller = new SpeakerController(speakerServiceMock.Object);
         }
@@ -143,6 +143,33 @@ namespace Community.Tests.API
 
 
         }
+
+        //[Fact]
+        //public void It_Has_GetAll()
+        //{
+        //    controller.GetAll();
+        //}
+
+        [Fact]
+        public void It_Return_OkObject_Result()
+        {
+            var result = controller.GetAll();
+            Assert.NotNull(result);
+            Assert.IsType<OkObjectResult>(result);
+
+        }
+
+        [Fact]
+        public void It_Returns_Collection_of_SpeakersSummary()
+        {
+            var result = (OkObjectResult)controller.GetAll();
+            Assert.NotNull(result.Value);
+            Assert.IsAssignableFrom<List<SpeakerSummary>>(result.Value);
+
+            result.Value.Should().BeOfType<List<SpeakerSummary>>();
+        }
+
+
 
     }
 }

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\community\\community.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|solutionrelative:community.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\community\\community.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|solutionrelative:community.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\community\\community.api\\services\\speakerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|solutionrelative:community.api\\services\\speakerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\community\\community.api\\repositories\\sepakerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|solutionrelative:community.api\\repositories\\sepakerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\community\\community.api\\data\\speakerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7696AE9-CDE8-44D3-BD85-E616103EE6FC}|Community.API\\Community.API.csproj|solutionrelative:community.api\\data\\speakerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Program.cs",
+              "RelativeDocumentMoniker": "Community.API\\Program.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Program.cs",
+              "RelativeToolTip": "Community.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:58:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Community.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\appsettings.json",
+              "RelativeToolTip": "Community.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T12:57:31.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpeakerService.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Services\\SpeakerService.cs",
+              "RelativeDocumentMoniker": "Community.API\\Services\\SpeakerService.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Services\\SpeakerService.cs",
+              "RelativeToolTip": "Community.API\\Services\\SpeakerService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:54:09.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpeakerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Data\\SpeakerDbContext.cs",
+              "RelativeDocumentMoniker": "Community.API\\Data\\SpeakerDbContext.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Data\\SpeakerDbContext.cs",
+              "RelativeToolTip": "Community.API\\Data\\SpeakerDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:48:54.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SepakerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Repositories\\SepakerRepository.cs",
+              "RelativeDocumentMoniker": "Community.API\\Repositories\\SepakerRepository.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\Community\\Community.API\\Repositories\\SepakerRepository.cs",
+              "RelativeToolTip": "Community.API\\Repositories\\SepakerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:46:54.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

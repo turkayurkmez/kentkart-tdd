@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E465E0-B2A2-45F3-A0F8-1ECCB1D33712}|FizzBuzz.Game\\FizzBuzz.Game.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\tddintro\\fizzbuzz.game\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E465E0-B2A2-45F3-A0F8-1ECCB1D33712}|FizzBuzz.Game\\FizzBuzz.Game.csproj|solutionrelative:fizzbuzz.game\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F719A916-99C6-4147-AD3C-5B1320028235}|FizzBuzz.Tests\\FizzBuzz.Tests.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\tddintro\\fizzbuzz.tests\\gametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F719A916-99C6-4147-AD3C-5B1320028235}|FizzBuzz.Tests\\FizzBuzz.Tests.csproj|solutionrelative:fizzbuzz.tests\\gametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E0AEFF-F8E7-499A-889B-FB7BAB56DFA0}|NewFolder1{84E0AEFF-F8E7-499A-889B-FB7BAB56DFA0}|C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\Rules.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84E0AEFF-F8E7-499A-889B-FB7BAB56DFA0}|NewFolder1{84E0AEFF-F8E7-499A-889B-FB7BAB56DFA0}|solutionrelative:Rules.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E465E0-B2A2-45F3-A0F8-1ECCB1D33712}|FizzBuzz.Game\\FizzBuzz.Game.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\kentkart\\tdd\\ekim 2024\\tddintro\\fizzbuzz.game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E465E0-B2A2-45F3-A0F8-1ECCB1D33712}|FizzBuzz.Game\\FizzBuzz.Game.csproj|solutionrelative:fizzbuzz.game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Game\\GameBoard.cs",
+              "RelativeDocumentMoniker": "FizzBuzz.Game\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Game\\GameBoard.cs",
+              "RelativeToolTip": "FizzBuzz.Game\\GameBoard.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:08:42.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameTest.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Tests\\GameTest.cs",
+              "RelativeDocumentMoniker": "FizzBuzz.Tests\\GameTest.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Tests\\GameTest.cs",
+              "RelativeToolTip": "FizzBuzz.Tests\\GameTest.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAkwGMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:04:01.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Game\\Program.cs",
+              "RelativeDocumentMoniker": "FizzBuzz.Game\\Program.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\FizzBuzz.Game\\Program.cs",
+              "RelativeToolTip": "FizzBuzz.Game\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:02:18.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rules.txt",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\Rules.txt",
+              "RelativeDocumentMoniker": "Rules.txt",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\KentKart\\TDD\\Ekim 2024\\TDDIntro\\Rules.txt",
+              "RelativeToolTip": "Rules.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-21T08:08:51.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

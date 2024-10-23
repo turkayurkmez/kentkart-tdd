@@ -15,6 +15,13 @@ namespace Community.API.Controllers
         {
             depentendService = speakerService;
         }
+
+        public IActionResult GetAll()
+        {
+            var speakerSummaries = depentendService.GetSpeakersSummary();
+            return Ok(speakerSummaries);
+        }
+
         public IActionResult Search(string name)
         {
             //var depentendService = new SpeakerService();

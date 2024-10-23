@@ -24,22 +24,13 @@ Given I am a conference organizer
  I want to see a listing of all speakers
  So that I can find speakers for my user group.
 
-As conference organizer
- I want to see details of a particular speaker
- So that I might view more information about them.
-
- As user group organizer
- I want to see a listing of all speakers
- So that I can find speakers for my user group.
-
-Given system contains speakers
+ Given system contains speakers
  When viewing speaker catalog
  Then a listing of all speaker summaries is returned.
 
 As conference organizer
  I want to see details of a particular speaker
  So that I might view more information about them.
-
 
 Given specified speaker exists
  When speaker selected

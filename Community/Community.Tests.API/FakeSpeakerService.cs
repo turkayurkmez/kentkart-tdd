@@ -21,5 +21,10 @@ namespace Community.Tests.API
         {
             throw new NotImplementedException();
         }
+
+        public List<SpeakerSummary> GetSpeakersSummary()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
